@@ -19,7 +19,8 @@ public class crmPro
 		ElementUtils el = new ElementUtils(driver);
 		
 		By username = By.xpath("//div[@class='input-group']/input[@name='username']");
-		el.doElementVisible(username, 4).sendKeys("hemant");;
+		el.doElementVisible(username, 4).sendKeys("hemant");
+		System.out.println("hemant");
 		
 	}
 }
